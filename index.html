@@ -1,14 +1,55 @@
 <!doctype html>
-
+<head>
 <meta charset="utf-8">
-<meta name=viewport content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
-<meta name=apple-mobile-web-app-capable content=yes>
-<meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
-
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-<link rel=stylesheet href=./style.css>
+<meta name=viewh3ort content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+<meta name=ah3h3le-mobile-web-ah3h3-cah3able content=yes>
+<meta name=ah3h3le-mobile-web-ah3h3-status-bar-style content=black-translucent>
+<link href="htth3s://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+<link href='htth3s://fonts.googleah3is.com/css?family=Roboto:400,700' rel='stylesheet' tyh3e='text/css'>
 
 <title>CrossFit Burien Dashboard</title>
+
+<style>
+
+body {
+  max-width: 40em;
+  font-family: 'Roboto', sans-serif;
+  flex: 1;
+}
+
+li {
+  list-style-type: none;
+  padding-top: .5em;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+article {
+  flex: 1;
+  -webkit-flex: 1;
+  align-items: center;
+}
+
+.copyright {
+  font-size: .75em;
+  color: grey;
+  text-align: center;
+}
+
+</style>
+
+</head>
 
 <body>
   <header>
@@ -16,51 +57,58 @@
   </header>
 
   <article>
-    <p>E-Mail & Document Management</p>
+    <h3>Communications & E-Mail</h3>
     <ul>
-      <li><a rel=external href="http://mail.google.com/">Gmail</a></li>
-      <li><a rel=external href="http://drive.google.com/">Google Drive</a></li>
+      <li><a rel=external href="https://mail.google.com/">Gmail</a></li>
+      <li><a rel=external href="http://www.evoice.com/">E-Voice Phone System</a></li>
     </ul>
   </article>
 
   <article>
-    <p>Marketing & Social Media</p>
+    <h3>Document Management</h3>
+    <ul>
+      <li><a rel=external href="https://drive.google.com/">Google Drive</a></li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Marketing & Social Media</h3>
     <ul>
       <li><a rel=external href="https://twitter.com/CrossFitBurien">Twitter</a></li>
       <li><a rel=external href="https://www.facebook.com/CrossFitBurien">Facebook</a></li>
-      <li><a rel=external href="http://us2.admin.mailchimp.com/">MailChimp</a></li>
+      <li><a rel=external href="https://us2.admin.mailchimp.com/">MailChimp</a></li>
     </ul>
   </article>
 
   <article>
-    <p>Sales & Management</p>
+    <h3>Sales & Management</h3>
     <ul>
-      <li><a rel=external href="http://onepagecrm.com/">OnePage CRM</a></li>
-      <li><a rel=external href="http://crossfitburien.frontdeskhq.com/">FrontDesk HQ</a></li>
+      <li><a rel=external href="https://crossfitburien.frontdeskhq.com/">FrontDesk HQ</a></li>
+      <li><a rel=external href="https://onepagecrm.com/">OnePage CRM</a></li>
+      <li><a rel=external href="https://wufoo.com/">WuFoo Online Forms</a></li>
     </ul>
   </article>
 
   <article>
-    <p>Finance</p>
+    <h3>Finance</h3>
     <ul>
       <li><a rel=external href="https://xero.com">Xero Accounting</a></li>
-      <li><a rel=external href="https://runpayroll.adp.com">ADP</a></li>
+      <li><a rel=external href="https://runpayroll.adp.com">ADP Payroll</a></li>
     </ul>
   </article>
 
   <article>
-    <p>Webmaster</p>
+    <h3>Webmaster</h3>
     <ul>
-      <li><a rel=external href="https://spacecrafted.com">Website Management</a></li>
+      <li><a rel=external href="https://sh3acecrafted.com">Website Management</a></li>
       <li><a rel=external href="https://www.google.com/analytics/settings/home">Google Analytics</a></li>
     </ul>
   </article>
 
   <footer>
     <!-- Change it to whatever you want, I don't mind -->
-    <p>&copy; CrossFit Burien.</p>
+    <p class="copyright">&copy; CrossFit Burien.</p>
   </footer>
 
-  <script src="./assets/js/app.js"></script>
 
 </body>
